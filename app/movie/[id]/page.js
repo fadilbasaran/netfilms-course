@@ -7,7 +7,7 @@ import { notFound } from 'next/navigation'
   return new Promise((resolve)=>setTimeout(resolve, ms));
 }
 async function MoviePage({params,searchParams}) {
-   await delay(2000);
+  //  await delay(2000);
     const movieDetails = Movies.results.find((movie)=>movie.id.toString()=== params.id)
     if (!movieDetails) {
         notFound();/** Eğer id bulunamzsa buraya yönlendirecek */
