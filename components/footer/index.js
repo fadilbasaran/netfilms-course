@@ -7,11 +7,11 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       Made with ❤️ by&nbsp;
-      <Link href="https://twitter.com/_mehmetpekcan" target="_blank">
-        Mehmet Pekcan
+      <Link href="https://twitter.com/fadilbasaran" target="_blank">
+        Fadıl Başaran
       </Link>
     </footer>
   );
 }
 
-export { Footer };
+export default Footer;
