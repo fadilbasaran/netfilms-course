@@ -6,7 +6,7 @@ async function delay(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 async function HomePage({ params }) {
-     await delay(2000)
+    await delay(2000)
     console.log(params)
     let selectedCategory;
     if (params.category?.length > 0) {
